@@ -1,0 +1,69 @@
+.btncart {
+    background-color: #153535;
+    border: none;
+    color: #DAAD76;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .btncart:hover {
+    background-color: #DAAD76;
+    color: #153535 
+  }
+  
+  .btncart:active {
+    background-color: #DAAD76;
+  }
+  
+  .btncart:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #DAAD76;
+  }
+
+
+  /* Quantity input container */
+
+  .btncart2 {
+    background-color: #153535;
+    border: 10px;
+    color: #DAAD76;
+    padding: 9px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btncart2:hover {
+    background-color: #DAAD76;
+    color: #153535 
+  }
+  
+  .btncart2:active {
+    background-color: #DAAD76;
+  }
+  
+  .btncart2:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px #DAAD76;
+  }
+
+  input{
+    height: 30px;
+    width: 30px;
+    padding-left: auto;
+    padding-right: auto;
+  
+  }
+
+
+
+  

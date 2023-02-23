@@ -1,0 +1,22 @@
+.thumbnail{
+    border: 1px solid #DAAD76;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+
+  td{
+   border: 2px solid #153535;
+   padding-left: 15px;
+   padding-right: 15px;
+   text-align: center;
+   height: 125px;
+   font-size: 20px;
+  }
+
+
+   table{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }

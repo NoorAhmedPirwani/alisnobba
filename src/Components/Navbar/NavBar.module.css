@@ -1,0 +1,41 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #DAAD76;
+	height: 160px;
+	padding: 0 30px;
+  }
+  
+  .image {
+	height: 150px;
+	width: auto;
+  }
+
+  .cart {
+	height: 80px;
+	width: auto;
+	border-style: solid;
+	border-color: #153535;
+  }
+  
+  .logo {
+	margin:10px ;
+	display: flex;
+	list-style: none;
+  }
+  
+  .navbar-item {
+	margin-right: 20px;
+  }
+
+.mainheading{
+	font-size: 45px;
+	color:#153535 ;
+	margin: 20px;
+}
+.subheading{
+	font-size: 35px;
+	color:#153535;
+	margin: 20px;
+}
