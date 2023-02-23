@@ -17,13 +17,13 @@ function App() {
       .then((result) => setData(result));
   }, []);
 
-  const sendFinalData = () => {
+  const sendFinalData = (cart) => {
       fetch("http://localhost:8081/shopping/add", {
         method: "POST", // or 'PUT'
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(cartData),
+        body: JSON.stringify(cart)
       })
         .then((response) => response.json())
         .then((data) => {

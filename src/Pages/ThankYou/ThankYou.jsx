@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 import styles from "./ThankYou.module.css";
 
-const ProductDetail = (props) => {
+const ThankYou = (props) => {
 
     const emptyCart =()=>{
         fetch("")
@@ -21,4 +21,4 @@ const ProductDetail = (props) => {
     </>
   );
 };
-export default ProductDetail;
+export default ThankYou;
